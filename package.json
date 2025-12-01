@@ -1,0 +1,4 @@
+{"name":"luna","version":"1.0.0","description":"Luna - AI browser","main":"main.js",
+"scripts":{"start":"electron .","build":"electron-builder --win portable"},
+"devDependencies":{"electron":"^33.0.0","electron-builder":"^25.0.0"},
+"build":{"appId":"app.luna.browser","productName":"Luna","win":{"target":"portable"},"files":["main.js","index.html"]}}
